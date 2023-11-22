@@ -17,16 +17,16 @@ protocol FeedViewModel {
 final class FeedViewModelImp: FeedViewModel {
     var stateClosure: ((ObservationType<UserActivity, Error>) -> ())?
     var colors: [UIColor] = [
-        .red,
-        .blue,
-        .green,
-        .yellow,
-        .brown,
-        .cyan,
-        .link,
-        .magenta,
-        .orange,
-        .purple,
+        .systemRed,
+        .systemBlue,
+        .systemGreen,
+        .systemYellow,
+        .systemBrown,
+        .systemCyan,
+        .systemTeal,
+        .systemIndigo,
+        .systemOrange,
+        .systemPurple,
         .systemMint
     ]
     
