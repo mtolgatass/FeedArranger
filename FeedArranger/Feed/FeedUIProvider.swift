@@ -102,5 +102,5 @@ final class FeedUIProviderImp: FeedUIProvider {
 }
 
 extension FeedUIProviderImp {
-    enum UserActivity { }
+    enum UserActivity {}
 }

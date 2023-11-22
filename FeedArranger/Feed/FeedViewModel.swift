@@ -23,11 +23,19 @@ final class FeedViewModelImp: FeedViewModel {
         .systemYellow,
         .systemBrown,
         .systemCyan,
+        .black,
         .systemTeal,
         .systemIndigo,
         .systemOrange,
         .systemPurple,
-        .systemMint
+        .systemMint,
+        .systemPink,
+        .systemBlue,
+        .systemGreen,
+        .systemYellow,
+        .systemBrown,
+        .systemCyan,
+        .black
     ]
     
     func reorderItems(source: Int, destination: Int) {
@@ -37,7 +45,7 @@ final class FeedViewModelImp: FeedViewModel {
 }
 
 extension FeedViewModelImp {
-    enum UserActivity { }
+    enum UserActivity {}
 }
 
 enum ObservationType<T, E> {
